@@ -584,6 +584,22 @@ header {
         justify-content: space-between;
     }
 
+    body main section h1{
+        font-size: 2.5rem;
+    }
+
+
+    body main section h2{
+        font-size: 1.5rem;
+    }
+
+    main {
+        grid-area: main;
+        padding-left: 3px;
+        padding-right: 5px;
+
+    }
+
 }
 
 
@@ -838,6 +854,7 @@ main section h1{
     color: #fccf41;
     margin-bottom: 10px;
     font-size: 4rem;
+    overflow-wrap:anywhere;
     text-shadow: 2px 2px 20px  #d942a4;
 }
 main section li{
