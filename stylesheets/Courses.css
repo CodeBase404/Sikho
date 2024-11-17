@@ -40,8 +40,8 @@ header {
 
 #languages .lang-name {
     display: flex;
-    justify-content: space-evenly;
-    gap: 15px;
+    justify-content: Center;
+    height: 40px;
 }
 
 .lang-name div {
