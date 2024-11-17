@@ -1226,3 +1226,17 @@ header {
     position: relative;
     display: block;
 }
+
+.svg1{
+    animation: top-to-bottom-svg1 3s ease;
+}
+@keyframes top-to-bottom-svg1{
+    from {
+        opacity: 0;
+        transform: translateY(-1000px);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
