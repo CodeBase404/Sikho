@@ -445,6 +445,10 @@ nav .desktop-nav-menu {
 .try {
     background-color: #04aa6d;
 }
+.try a{
+    text-decoration: none;
+    color: white;
+}
 
 /* *********CSS Language section********** */
 
