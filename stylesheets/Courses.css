@@ -328,7 +328,7 @@ nav .desktop-nav-menu {
 }
 
 .sidebar-items ul li a {
-    color: rgb(21, 20, 20);
+    color: white;
     text-decoration: none;
     font-size: 16px;
 }
@@ -521,6 +521,7 @@ header {
     padding: 5px 46px;
     font-size: 16px;
     cursor: pointer;
+    color: black;
     background-color: #f1f1f1;
     border: 1px solid #ccc;
     border-radius: 5px;
