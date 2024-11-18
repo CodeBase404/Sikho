@@ -124,7 +124,7 @@ nav .login {
     font-size: 1.2rem;
 }
 
-nav button .login a{
+.login a{
     text-decoration: none;
     color: white;
 }
