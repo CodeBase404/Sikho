@@ -364,7 +364,16 @@ iframe {
     header .desktop-nav-menu li:nth-child(4):hover~.nav-menu-hover-effect {
         left: 215px;
     }
+
+    .desktop-learn-dropdown-content {
+        top: 41.5px;
+        left: -10.5px;
+    }
     
+    .desktop-quiz-dropdown-content {
+        top: 41.5px;
+        left: 13.5px;
+    }
 }
 
 /* For iPads (Portrait and Landscape) */
@@ -410,6 +419,16 @@ iframe {
 
     header .desktop-nav-menu li:nth-child(4):hover~.nav-menu-hover-effect {
         left: 365px;
+    }
+
+    .desktop-learn-dropdown-content {
+        top: 49px;
+        left: -11px;
+    }
+    
+    .desktop-quiz-dropdown-content {
+        top: 49px;
+        left: 13.5px;
     }
     
 }
