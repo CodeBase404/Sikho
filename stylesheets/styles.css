@@ -124,6 +124,11 @@ nav .login {
     font-size: 1.2rem;
 }
 
+nav .login a{
+    text-decoration: none;
+    color: white;
+}
+
 .login:hover {
     background-color: #3e4ca7;
     color: white;
