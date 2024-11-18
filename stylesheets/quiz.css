@@ -18,6 +18,8 @@ header{
     z-index: 1;
 }
 body{
+    width: 100vw;
+    height: 100vh;
     background-image: url(../images/QuizBackground.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -467,15 +469,10 @@ header{
     }
 
     .quiz-card {
-        height: 88vh;
+        height: 70vh;
         width: 370px;
     }
-
-    .quiz-cards-containter {
-        height: 100vh;
-        width: 390px;
-    }
-
+    
     .quiz-card p{
         min-height: 25px;
         width: 20rem;
@@ -486,6 +483,15 @@ header{
         height: 40px;
     }
 
+    .quiz-card ol li label {
+        width: 18.5rem; 
+        font-size: 12px;
+    }
+
+    .quiz-card ol li:first-child {
+        margin-top: 20px;
+    }
+    
     .previous-next-btn .next, .previous{
         font-size: 12px;
         padding: 2px;
