@@ -467,7 +467,6 @@ header{
     }
 
     .quiz-card {
-        margin-top: 50px;
         height: 88vh;
         width: 370px;
     }
@@ -478,14 +477,25 @@ header{
     }
 
     .quiz-card p{
-        min-height: 45px;
+        min-height: 25px;
         width: 20rem;
     }
     
     .quiz-card ol li {
         width: 18.5rem; 
+        height: 40px;
     }
 
+    .previous-next-btn .next, .previous{
+        font-size: 12px;
+        padding: 2px;
+        height: 25px;
+        width: 135px;
+    }
+
+    .next a{
+        padding: 5px 5px 10px 5px;
+     }
 
 }
 
