@@ -314,7 +314,7 @@ nav .desktop-nav-menu {
 }
 
 .lets-learn-language ul li span::before {
-    content: "";
+    content: "|";
     height: 58px;
     width: 210px;
     background-color: white;
