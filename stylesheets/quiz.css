@@ -468,18 +468,13 @@ header{
     nav{
         justify-content: space-between;
     }
-
-    .quiz-card {
-        height: 75vh;
-        width: 370px;
-    }
     
     .quiz-card p{
         width: 90rem;
     }
     
     .quiz-card ol li {
-        width: 18.5rem; 
+        width: 90vw; 
         height: 40px;
     }
 
