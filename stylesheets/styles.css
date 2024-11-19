@@ -303,24 +303,24 @@ nav .desktop-nav-menu {
 
 .lets-learn-language ul li {
     font-size: 40px;
-    color: rgb(4, 116, 10);
+    color: green;
     list-style: none;
     padding: 0 14px;
 }
 
 .lets-learn-language ul li span {
     position: relative;
+    font-weight: 700;
 }
 
 .lets-learn-language ul li span::before {
     content: "";
     height: 58px;
     width: 210px;
-    border-left: 2px solid green;
     background-color: white;
     position: absolute;
     left: 0;
-    animation: typing 1.6s steps(20) infinite alternate;
+    animation: typing 1s steps(50) infinite alternate;
 }
 
 @keyframes typing {
@@ -330,7 +330,7 @@ nav .desktop-nav-menu {
 }
 
 .lets-learn-language ul li {
-    animation: slideup 9.5s steps(3) infinite;
+    animation: slideup 6s steps(3) infinite;
     position: relative;
     top: 0;
 }
