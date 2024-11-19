@@ -494,6 +494,10 @@ header{
         padding: 5px 5px 10px 5px;
      }
 
+    .quiz-card:nth-child(even),.quiz-card:nth-child(odd    ){
+        animation: none;   
+    }
+
 }
 
 @media only screen and (min-width: 481px) and (max-width: 562px) {
