@@ -494,7 +494,7 @@ header{
         padding: 5px 5px 10px 5px;
      }
 
-    .quiz-card:nth-child(even),.quiz-card:nth-child(odd    ){
+    .quiz-card:nth-child(even),.quiz-card:nth-child(odd){
         animation: none;   
     }
 
